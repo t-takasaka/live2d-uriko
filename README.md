@@ -8,7 +8,9 @@ Live2D Cubism3に対応した売り子アプリです。プロトタイプ版と
 
 OpenCV.jsをWebAssemblyビルドし、顔の検出はWeb Workerを使って別スレッドで行っています。
 
-検出にはSSD(Single Shot Multibox Detector)とHaar Cascadeが使えます。PCや性能の高いモバイルでは前者をお使いください。
+検出にはSSD(Single Shot Multibox Detector)とHaar Cascadeが使えます。
+
+PCや性能の高いモバイルでは前者をお使いください。
 
 ## 機能
 
@@ -18,7 +20,7 @@ OpenCV.jsをWebAssemblyビルドし、顔の検出はWeb Workerを使って別�
 
 ## TODO
 
-- 近付いてきたら（認識ている顔の領域が大きくなったら）接客モーションを実行
+- 近付いてきたら（顔の領域が閾値より大きくなったら）接客モーションを実行
 
 - QRコード決済サービスとの連携
 
